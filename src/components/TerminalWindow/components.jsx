@@ -10,36 +10,36 @@ export const WindowTitleButtons = () => {
     alignItems: "center",
     borderRadius: "50%",
     cursor: "pointer",
-  }
+  }}
 
-  return (
-    <Flex>
-      <Flex
-        sx={{...defaultButtonStyle}}
-        mr={1}
-        bg="yellow.400"
-      >
-        <MinusIcon fontSize={8} color={"gray.800"} />
-      </Flex>
+//   return (
+//     <Flex>
+//       <Flex
+//         sx={{...defaultButtonStyle}}
+//         mr={1}
+//         bg="yellow.400"
+//       >
+//         <MinusIcon fontSize={8} color={"gray.800"} />
+//       </Flex>
 
-      <Flex
-        sx={{...defaultButtonStyle}}
-        mr={1}
-        transform={"rotate(45deg)"}
-        bg="green.300"
-      >
-        <ArrowUpDownIcon fontSize={8} color={"gray.800"} />
-      </Flex>
+//       <Flex
+//         sx={{...defaultButtonStyle}}
+//         mr={1}
+//         transform={"rotate(45deg)"}
+//         bg="green.300"
+//       >
+//         <ArrowUpDownIcon fontSize={8} color={"gray.800"} />
+//       </Flex>
 
-      <Flex
-        sx={{...defaultButtonStyle}}
-        bg="red.400"
-      >
-        <CloseIcon fontSize={8} color={"gray.800"} />
-      </Flex>
-    </Flex>
-  )
-}
+//       <Flex
+//         sx={{...defaultButtonStyle}}
+//         bg="red.400"
+//       >
+//         <CloseIcon fontSize={8} color={"gray.800"} />
+//       </Flex>
+//     </Flex>
+//   )
+// }
 
 export const TerminalWindowTitle = () => {
   return (
@@ -58,7 +58,7 @@ export const TerminalWindowTitle = () => {
           '-ms-user-select': "none",
           'user-select': "none",
       }}>
-        Portólio Terminal
+        {/* Portólio Terminal */}
       </Box>
       <WindowTitleButtons />
     </Flex >
